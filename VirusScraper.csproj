@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoronavirusModels">
+      <HintPath>..\Virus.Data.Layer\bin\Debug\netcoreapp3.1\CoronavirusModels.dll</HintPath>
+    </Reference>
+    <Reference Include="Virus.Data.Layer">
+      <HintPath>..\Virus.Data.Layer\bin\Debug\netcoreapp3.1\Virus.Data.Layer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
